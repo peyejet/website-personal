@@ -1,0 +1,166 @@
+:root
+{
+    --blue : #2c2546;
+    --dark-blue : #181535;
+    --green : #00EB09;
+    --white : #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Tahoma';
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+header {
+    text-align: center;
+    background-color: var(--blue);
+    position: flex;
+    width: 100%;
+    font-weight: bold;
+    padding: 3%;
+    top: 0;
+}
+
+.title {
+    color: var(--green);
+    border-bottom: 1px solid var(--white);
+    font-size: 15pt;
+}
+
+.input-search {
+    width: 30%;
+    border: none;
+    border-radius: 0 0 0 20px;
+    padding: 10px;
+}
+
+.input-submit {
+    margin-left: -5px;
+    border: none;
+    border-radius: 0 15px 0 0;
+    padding: 10px;
+    background-color: var(--green);
+    color: var(--blue);
+    width: 5%;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav ul  li a {
+    color: var(--green);
+}
+
+nav ul  li a:hover
+{
+   border-bottom: 3px solid var(--white);
+}
+
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.content .penulis  {
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+.content p {
+    margin-bottom: 20px;
+
+}
+
+.title-p {
+    margin-left: 65px;
+}
+
+.populer {
+    display:  grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.populer img {
+    border-radius: 10px;
+}
+
+.link a {
+    color: var(--white);
+}
+
+.link a:hover {
+    color: var(--green)
+}
+
+.tentang
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 15pt;
+}
+ 
+.card
+{
+    background-color: var(--blue);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px black;
+}
+ 
+.card h1
+{
+    text-align: center;
+}
+ 
+html
+{
+    scroll-behavior: smooth;
+}
+ 
+ 
+footer
+{
+    display: grid;
+    justify-content: center;
+    background-color: var(--blue);
+    margin-top: 10%;
+    padding: 2%;
+}
+ 
+.sosmed img 
+{
+    width: 50px;
+}
+ 
+#copyright
+{
+    text-align: center;
+    padding: 10px;
+}
